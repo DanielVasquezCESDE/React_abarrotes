@@ -4,12 +4,14 @@ export function Home() {
   return (
     <>
       <header>
-        <nav class="navbar navbar-expand-lg menu">
+        <nav class="navbar navbar-expand-lg menu ">
           <div class="container-fluid">
+          
+
             <a class="navbar-brand" href="#">
-                <div class="form-outline">
-                    <img src="../../src/assets/img/abarrotes.png" class="img-fluid" alt="Ícono de Búsqueda" width="100px" />
-                    <span>  Abarrotes La Esperanza</span>
+                <div class="text-center text-">
+                    <img src="../../src/assets/img/abarrotes.png" class="img-fluid d-flex" alt="Ícono de Búsqueda" width="120px"/>
+                    <span className="text-center" >  Abarrotes La Esperanza</span>
                 </div>
             </a>
 
