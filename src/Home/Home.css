@@ -1,10 +1,16 @@
-.mainmenu {
-    background-color: transparent !important;
-}
+
 
 .menu{
     background-color: rgb(234, 159, 47);
 }
+
+.form-outline i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+  }
+
 
 .logo {
     background-color: #e56801 !important;
