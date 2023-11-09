@@ -2,12 +2,13 @@ import "./Home.css";
 import { Formulario } from "../Formulario/Formulario";
 import { Carusel } from "../Carusel/Carusel";
 import { Tarjetas } from "../Tarjetas/Tarjetas";
+import { Footer } from "../Pie_de_pagina/footer";
 export function Home() {
   return (
     <>
       <header>
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
-          <div className="container-fluid menu">
+        <nav className="navbar navbar-expand-lg navbar-light menu px-5">
+          <div className="container-fluid ">
             <a className="navbar-brand" href="#">
               <img
                 src="../../src/assets/img/abarrotes.png"
@@ -52,7 +53,7 @@ export function Home() {
                 <input
                   className="form-control me-2"
                   type="search"
-                  placeholder="Search"
+                  placeholder="Libra de panela..."
                   aria-label="Search"
                 />
                 <button className="btn btn-outline-success" type="submit">
@@ -176,6 +177,10 @@ export function Home() {
 
       <section>
         <Tarjetas></Tarjetas>
+      </section>
+
+      <section>
+        <Footer></Footer>
       </section>
     </>
   );

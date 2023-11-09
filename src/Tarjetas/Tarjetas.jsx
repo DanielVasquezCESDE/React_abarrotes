@@ -1,6 +1,6 @@
 export function Tarjetas() {
   return (
-    <div className="card-group">
+    <div className="card-group ">
       <div className="card py-2 px-2">
         <img src="../../src/assets/img/20231023_165109.jpg" className="card-img-top" alt="..." />
         <div className="card-body">
