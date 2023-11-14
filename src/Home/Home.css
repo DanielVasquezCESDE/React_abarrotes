@@ -2,7 +2,9 @@
 
 .menu{
     background-color: rgb(234, 159, 47);
+    font-size: large;
 }
+
 
 .form-outline i {
     position: absolute;
@@ -17,6 +19,10 @@
     border-radius: 0% 50% 50% 0%;
     height: 100%;
     width: 10%;
+}
+
+.enlaces:hover {
+    transform: scale(300px);
 }
 
 .banner{

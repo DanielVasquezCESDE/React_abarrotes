@@ -28,7 +28,7 @@ export function Carusel() {
       <SwiperSlide>
         <img src="../../src/assets/img/logo.png" alt="" />
       </SwiperSlide>
-      <SwiperSlide> <img src="../../src/assets/img/descarga.png" className="img-fluid" alt="" /></SwiperSlide>
+      <SwiperSlide> <img src="../../src/assets/img/descarga.png" className="img-fluid" alt="" width="1280" height="720" /></SwiperSlide>
       <SwiperSlide><img src="../../src/assets/img/super.jpg" className="img-fluid" alt="" /></SwiperSlide>
       <SwiperSlide><img src="../../src/assets/img/super2.jpg" className="img-fluid" alt="" /></SwiperSlide>
       <SwiperSlide><img src="../../src/assets/img/super3.jpg" className="img-fluid" alt="" /></SwiperSlide>
