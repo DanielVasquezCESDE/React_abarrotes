@@ -11,7 +11,7 @@ import 'swiper/css/scrollbar';
 
 export function Carusel() {
   return (
-    <Swiper
+    <Swiper className='my-4 mx-4'
       // install Swiper modules
       modules={[Navigation, Pagination, Scrollbar, A11y]}
       spaceBetween={50}

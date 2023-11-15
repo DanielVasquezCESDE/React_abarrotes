@@ -1,7 +1,8 @@
 export function Tarjetas() {
   return (
-    <div className="card-group ">
-      <div className="card py-2 px-2">
+    <div className="card-group row">
+      <h1 className="display-1 text-center col-lg-12 text-white"> Seccciones principales </h1>
+      <div className="card my-5 mx-5 shadow bg-body-tertiary rounded">
         <img src="../../src/assets/img/20231023_165109.jpg" className="card-img-top" alt="..." />
         <div className="card-body">
           <h5 className="card-title">Card title</h5>
@@ -14,7 +15,7 @@ export function Tarjetas() {
           </p>
         </div>
       </div>
-      <div className="card py-2 px-2">
+      <div className="card my-5 mx-5 shadow bg-body-tertiary rounded">
         <img src="../../src/assets/img/20231023_165017.jpg" className="card-img-top" alt="..." />
         <div className="card-body">
           <h5 className="card-title">Card title</h5>
@@ -27,7 +28,7 @@ export function Tarjetas() {
           </p>
         </div>
       </div>
-      <div className="card py-2 px-2">
+      <div className="card my-5 mx-5 shadow bg-body-tertiary rounded">
         <img src="../../src/assets/img/20231023_165340.jpg" className="card-img-top" alt="..." />
         <div className="card-body">
           <h5 className="card-title">Card title</h5>
