@@ -4,6 +4,9 @@ import { Carusel } from "../Carusel/Carusel";
 import { Tarjetas } from "../Tarjetas/Tarjetas";
 import { Footer } from "../Pie_de_pagina/Footer";
 import { ListGroup } from "../ListGroup/ListGroup";
+import { Banner_clientes } from "../Banner_clientes/Banner_clientes";
+import { Resena } from "../Resena/Resena";
+
 export function Home() {
   return (
     <>
@@ -328,8 +331,17 @@ export function Home() {
       </main>
 
       <section>
-          <Carusel></Carusel>
+        <Banner_clientes></Banner_clientes>
+      </section>
+
+      <div className="container-fluid banner3">
+        <section>
+          <Carusel className="bg-transparent"></Carusel>
         </section>
+        <section>
+          <Resena></Resena>
+        </section>
+      </div>
 
       <div className="container-fluid banner2">
         <div className="container">

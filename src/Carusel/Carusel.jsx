@@ -1,17 +1,18 @@
 // import Swiper core and required modules
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
 
 export function Carusel() {
   return (
-    <Swiper className='my-4 mx-4'
+    <Swiper
+      className="py-4 px-4 bg-transparent"
       // install Swiper modules
       modules={[Navigation, Pagination, Scrollbar, A11y]}
       spaceBetween={50}
@@ -20,22 +21,64 @@ export function Carusel() {
       pagination={{ clickable: true }}
       scrollbar={{ draggable: true }}
       onSwiper={(swiper) => console.log(swiper)}
-      onSlideChange={() => console.log('slide change')}
+      onSlideChange={() => console.log("slide change")}
     >
       <SwiperSlide>
-        <img src="../../src/assets/img/gato.png" alt="" />
+        <img
+          src="../../src/assets/img/20231023_165017.jpg"
+          alt=""
+          width="800px"
+          height="600px"
+        />
       </SwiperSlide>
       <SwiperSlide>
-        <img src="../../src/assets/img/logo.png" alt="" />
+        <img
+          src="../../src/assets/img/20231023_165057 (1).jpg"
+          alt=""
+          width="800px"
+          height="600px"
+        />
       </SwiperSlide>
-      <SwiperSlide> <img src="../../src/assets/img/descarga.png" className="img-fluid" alt="" width="1280" height="720" /></SwiperSlide>
-      <SwiperSlide><img src="../../src/assets/img/super.jpg" className="img-fluid" alt="" /></SwiperSlide>
-      <SwiperSlide><img src="../../src/assets/img/super2.jpg" className="img-fluid" alt="" /></SwiperSlide>
-      <SwiperSlide><img src="../../src/assets/img/super3.jpg" className="img-fluid" alt="" /></SwiperSlide>
-      <SwiperSlide><img src="../../src/assets/img/super4.jpeg" className="img-fluid" alt="" /></SwiperSlide>
-    
+      <SwiperSlide>
+        <img
+          src="../../src/assets/img/20231023_165101.jpg"
+          height="600px"
+          alt=""
+          width="800px"
+        />
+      </SwiperSlide>
+      <SwiperSlide>
+        <img
+          src="../../src/assets/img/20231023_165109.jpg"
+          height="600px"
+          alt=""
+          width="800px"
+        />
+      </SwiperSlide>
+      <SwiperSlide>
+        <img
+          src="../../src/assets/img/20231023_165154.jpg"
+          height="600px"
+          alt=""
+          width="800px"
+        />
+      </SwiperSlide>
+      <SwiperSlide>
+        <img
+          src="../../src/assets/img/20231023_165340.jpg"
+          height="600px"
+          alt=""
+          width="800px"
+        />
+      </SwiperSlide>
+      <SwiperSlide>
+        <img
+          src="../../src/assets/img/20231023_165343.jpg"
+          alt=""
+          width="800px"
+          height="600px"
+        />
+      </SwiperSlide>
     </Swiper>
-
-
   );
-};
+}
